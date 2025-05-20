@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benim Web Sitem</title>
+    <title>Ahmet'in Web Sitesi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Merhaba, ben Ahmet!</h1>
-        <p>Basit bir web geliştirici adayıyım.</p>
+        <div class="container">
+            <h1>Merhaba, ben Ahmet!</h1>
+            <p>Basit bir web geliştirici adayıyım.</p>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>Hakkımda</h2>
-        <p>HTML ve CSS öğreniyorum. Bu benim ilk web sitem!</p>
-    </section>
+    <main class="container">
+        <section class="about">
+            <h2>Hakkımda</h2>
+            <p>HTML ve CSS öğreniyorum. Bu benim ilk web sitem! Amacım frontend geliştirme alanında kendimi geliştirmek.</p>
+        </section>
 
-    <section class="contact">
-        <h2>İletişim</h2>
-        <p>Bana ulaşmak için <a href="mailto:ahmet@example.com">e-posta gönderebilirsin</a>.</p>
-    </section>
+        <section class="skills">
+            <h2>Yetenekler</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Visual Studio Code</li>
+                <li>Responsive Tasarım</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>İletişim</h2>
+            <p>Bana ulaşmak için <a href="mailto:ahmet@example.com">e-posta gönderebilirsin</a>.</p>
+            <p>Ayrıca beni sosyal medyada da bulabilirsin:</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/ahmet" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/ahmet" target="_blank">LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Ahmet. Tüm hakları saklıdır.</p>
+        <div class="container">
+            <p>&copy; 2025 Ahmet. Tüm hakları saklıdır.</p>
+        </div>
     </footer>
 </body>
 </html>
